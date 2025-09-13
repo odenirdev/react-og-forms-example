@@ -2489,11 +2489,11 @@ axe-core@^3.5.4:
   integrity sha512-5P0QZ6J5xGikH780pghEdbEKijCTrruK9KxtPZCFWUpef0f6GipO+xEZ5GKCb020mmqgbiNO6TcA55CriL784Q==
 
 axios@^0.21.0:
-  version "0.21.0"
-  resolved "https://registry.yarnpkg.com/axios/-/axios-0.21.0.tgz#26df088803a2350dff2c27f96fef99fe49442aca"
-  integrity sha512-fmkJBknJKoZwem3/IKSSLpkdNXZeBu5Q7GA/aRsr2btgrptmSCxi2oFjZHqGdK9DoTil9PIHlPIZw2EcRJXRvw==
+  version "0.21.4"
+  resolved "https://registry.yarnpkg.com/axios/-/axios-0.21.4.tgz#c67b90dc0568e5c1cf2b0b858c43ba28e2eda575"
+  integrity sha512-ut5vewkiu8jjGBdqpM44XxjuCjq9LAKeHVmoVfHVzy8eHgxxq8SbAVQNovDA8mVi05kP0Ea/n/UzcSHcTJQfNg==
   dependencies:
-    follow-redirects "^1.10.0"
+    follow-redirects "^1.14.0"
 
 axobject-query@^2.1.2:
   version "2.2.0"
@@ -5109,10 +5109,15 @@ flush-write-stream@^1.0.0:
     inherits "^2.0.3"
     readable-stream "^2.3.6"
 
-follow-redirects@^1.0.0, follow-redirects@^1.10.0:
+follow-redirects@^1.0.0:
   version "1.13.0"
   resolved "https://registry.yarnpkg.com/follow-redirects/-/follow-redirects-1.13.0.tgz#b42e8d93a2a7eea5ed88633676d6597bc8e384db"
   integrity sha512-aq6gF1BEKje4a9i9+5jimNFIpq4Q1WiwBToeRK5NvZBd/TRsmW8BsJfOEGkr76TbOyPVD3OVDN910EcUNtRYEA==
+
+follow-redirects@^1.14.0:
+  version "1.15.11"
+  resolved "https://registry.yarnpkg.com/follow-redirects/-/follow-redirects-1.15.11.tgz#777d73d72a92f8ec4d2e410eb47352a56b8e8340"
+  integrity sha512-deG2P0JfjrTxl50XGCDyfI97ZGVCxIpfKYmfyrQ54n5FO/0gfIES8C/Psl6kWVDolizcaaxZJnTS0QSMxvnsBQ==
 
 for-in@^0.1.3:
   version "0.1.8"
@@ -9200,10 +9205,10 @@ react-is@^17.0.1:
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-17.0.1.tgz#5b3531bd76a645a4c9fb6e693ed36419e3301339"
   integrity sha512-NAnt2iGDXohE5LI7uBnLnqvLQMtzhkiAOLXTmv+qnF9Ky7xAPcX8Up/xWIhxvLVGJvuLiNc4xQLtuqDRzb4fSA==
 
-react-og-forms@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/react-og-forms/-/react-og-forms-1.0.0.tgz#4d9f5c249c845ec8022ebc6385a6c7bd54c092e9"
-  integrity sha512-UDE1jSAYquKwqHrDESrCYMtwlCDiwNBzhbnaX6O3frWoKXzo4SJXF/ni7C5jMtxhJyUtEL6RgTb6T0HdC1y+dw==
+react-og-forms@^1.0.2:
+  version "1.1.7"
+  resolved "https://registry.yarnpkg.com/react-og-forms/-/react-og-forms-1.1.7.tgz#31ec1b9cc4ecf29d75f060e8592c35ffd97e3556"
+  integrity sha512-rsLymdXCbhaGd8i9XqXzCkjeSReFTz5Db+h181wQ0jALpPqoNyGJ8MOpltAwhG2GURGhlAAsX+FcQMTBodF5sw==
   dependencies:
     axios "^0.21.0"
     filesize "^6.1.0"
